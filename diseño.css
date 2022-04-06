@@ -1,6 +1,36 @@
 .nombre {
     position: fixed;
-    top: 60px;
-    left: 50px;
+    top: 500px;
+    left: 580px;
     font-size: 20px;
+  
   }
+
+ 
+
+  .titulo{
+    position: fixed;
+    top: 20px;
+    font-style: initial;
+    color: aqua;
+    left: 570px;
+    font-size: 25px;
+    
+  }
+
+  body{
+    background-color: rgb(65, 64, 64);
+  }
+
+  .pelis
+  {
+     position: fixed;
+     top: 150px;
+     left: 70px;
+     font-style:initial;
+     color: azure;
+  }
+
+  
+
+  
