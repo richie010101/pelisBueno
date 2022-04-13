@@ -1,16 +1,11 @@
-
-
- 
-
   .titulo{
-    
-    font-style:initial;
+    position:sticky;
+    top: 1px;
     color: aqua;
     text-align: center;
     background-color:rgb(65, 64, 64);
     width:auto;
   }
-
   .titulo:hover{
     border: 2px solid springgreen;
   }
@@ -22,8 +17,12 @@
     font-size: 10px;
   }
 
+  .lastPEL:active{
+    margin: 2px;
+    color: rgb(1, 1, 65);
+
+  }
   .logoA{
-    
     position: relative;
     right: 38%;
     margin-left: 40%;
@@ -52,6 +51,33 @@
      color: azure;
   }
 
+  .img_ultimas{
+    width: auto;
+    height: 500px;
+  }
+
+  .todoPel{
+    width: auto;
+    height: 500px;
+  }
+
+
+  .info{
+    position:relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    width:auto;
+    height: 100px;
+    background: rgb(231, 84, 165);
+  }
+
+  .logoB{
+    text-align: center;
+    font-size: 11px;
+    
+  }
   
 
   
