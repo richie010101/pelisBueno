@@ -1,25 +1,46 @@
-.nombre {
-    position: fixed;
-    top: 500px;
-    left: 580px;
-    font-size: 20px;
-  
-  }
+
 
  
 
   .titulo{
-    position: fixed;
-    top: 20px;
-    font-style: initial;
-    color: aqua;
-    left: 570px;
-    font-size: 25px;
     
+    font-style:initial;
+    color: aqua;
+    text-align: center;
+    background-color:rgb(65, 64, 64);
+    width:auto;
+  }
+
+  .titulo:hover{
+    border: 2px solid springgreen;
+  }
+  .desarrollo{
+    position: absolute;
+    top: 45px;
+    left: 79%;
+    color: rgb(224, 224, 224);
+    font-size: 10px;
+  }
+
+  .logoA{
+    
+    position: relative;
+    right: 38%;
+    margin-left: 40%;
+    margin-right: 40%;
   }
 
   body{
     background-color: rgb(65, 64, 64);
+  }
+
+  .lastPEL{
+    background-color: rgb(109, 214, 214);
+    color:rgb(37, 36, 36);
+    font-style: italic;
+     margin-left: 15px;
+     text-align: left;
+     font-size: 15px;
   }
 
   .pelis
