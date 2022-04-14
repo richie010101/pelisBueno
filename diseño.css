@@ -52,8 +52,9 @@
   }
 
   .img_ultimas{
+    margin-left: 3%;
     width: auto;
-    height: 500px;
+    height: auto;
   }
 
   .todoPel{
@@ -77,6 +78,28 @@
     text-align: center;
     font-size: 11px;
     
+  }
+
+  .rtx{
+    border: 2px solid rgba(79, 43, 241, 0.514);
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+    background-color: rgb(165, 165, 165);
+  }
+
+  .contenidoInfo{
+    position: absolute;
+    font-style: italic;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .reproductor{
+    width: auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
   }
   
 
