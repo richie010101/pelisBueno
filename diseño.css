@@ -36,10 +36,10 @@
   .lastPEL{
     background-color: rgb(109, 214, 214);
     color:rgb(37, 36, 36);
-    font-style: italic;
+    font-family: light;
      margin-left: 15px;
      text-align: left;
-     font-size: 15px;
+     font-size: 12px;
   }
 
   .pelis
@@ -90,9 +90,9 @@
 
   .contenidoInfo{
     position: absolute;
-    font-style: italic;
+    font-family: info;
     margin-left: 18%;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .reproductor{
@@ -100,6 +100,16 @@
     text-align: center;
     margin-top: 3%;
     margin-bottom: 3%;
+  }
+
+  @font-face {
+    font-family: light;
+    src: url(fuente1.otf);
+  }
+
+  @font-face {
+    font-family: info;
+    src: url(fuente2.ttf);
   }
   
 
