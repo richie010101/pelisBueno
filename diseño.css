@@ -52,14 +52,17 @@
   }
 
   .img_ultimas{
+    
     margin-left: 3%;
-    width: auto;
-    height: auto;
+    width: 600px;
+    height: 250px;
   }
 
   .todoPel{
+    margin-left: 3%;
     width: auto;
-    height: 500px;
+    height: auto;
+    
   }
 
 
