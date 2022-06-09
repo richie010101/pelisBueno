@@ -58,11 +58,28 @@ fwrite($file_handle, '<!DOCTYPE html>' . "\n" .
                        '                                   ?><img src="data:image/jpg;base64,<?php echo base64_encode($row['."'poster'".']); ?>" width = "20%" height = "10%"><?php'. "\n"  .
                        '                                     }' . "\n"  .
                        '                                  ' . "\n"  .
-                       '                            $conn->close();'. "\n"  .
+                       
                        '                  ?>'. "\n"  .
                        '                 <p></p>'  . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '                   <br>' . "\n"  .
+                       '             </div>'      . "\n"  .
+                       '    <div class="rtx">'   . "\n"  .
                        '                 <div class="reproductor">'  . "\n"  .
-                       '                     <IFRAME SRC="'.$LinkR .'" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=700 HEIGHT=470 allowfullscreen></IFRAME>'   . "\n"  .
+                       '                     <IFRAME SRC="'.$LinkR .'" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=75% HEIGHT=80% allowfullscreen></IFRAME>'   . "\n"  .
+                       '                            <?php'
+                       '                           $conn->close();'
+                       '                           ?>'
                        '                 </div>'  . "\n"  .
                        '             </div>'      . "\n"  .
                        '             <div class="info">'   . "\n"  .

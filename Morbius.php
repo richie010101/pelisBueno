@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Avengers Infinty war</title> 
+    <title>Morbius</title> 
     <link href=diseño.css rel="stylesheet" type="text/css">
 </head>); 
 <body>
@@ -20,12 +20,12 @@
     </div>
     <div class="rtx">
             <div class="contenidoInfo">
-                 <p> Avengers Infinty war</p>
-                 <p> Año: 2018</p>
-                 <p> Dirección:  Anthony & Joe Russo</p>
-                 <p> Duración: 149 minutos</p>
-                 <p> Productora: Marvel Studios</p>
-                 <p> Sinopsis: los vengadores pelean contra thanos</p>
+                 <p> Morbius</p>
+                 <p> Año: 2022</p>
+                 <p> Dirección: Daniel Espinosa</p>
+                 <p> Duración: 108 minutos</p>
+                 <p> Productora: SONY</p>
+                 <p> Sinopsis: Morbius, un doctor que tras sufrir una enfermedad en la sangre y fallar al intentar curarse, se convirtió en un vampiro.</p>
                  </div>
                  <?php
                      include("conexion2.php"); 
@@ -33,21 +33,18 @@
                      if ($conn->connect_error){
                            die("Error al conectar a la base de datos");
                                         }
-                           $sql="Select * from peliculas where linkPagina='Avengers_Infinty_war.php'";
+                           $sql="Select * from peliculas where linkPagina='Morbius.php'";
                            $result=$conn->query($sql);
-                           if ($result->num_rows > 0) {
-                            while($row =$result->fetch_assoc()) {
-                                  ?>  <a href= <?php echo $row['linkPagina'] ;?>>
-                                       <img src="data:image/jpg;base64,<?php echo base64_encode($row['poster']); ?>" width = "18%" height = "9%">
-                                      </a> 
-                                      <?php
-                                    }
-                                   }
+                            
+                             while($row =$result->fetch_assoc()) {
+                                   ?><img src="data:image/jpg;base64,<?php echo base64_encode($row['poster']); ?>" width = "20%" height = "10%"><?php
+                                     }
+                                  
                             $conn->close();
                   ?>
                  <p></p>
                  <div class="reproductor">
-                 <iframe src="https://slmaxed.com/e/XAQ9qzxM6Jjl4mME" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="75%" height="90%" allowfullscreen></iframe>
+                     <IFRAME SRC="https://mega.nz/embed/EgkFFDqS#gaC_bl4rVNIWFb8Y8Prk2ON98rpUQzYyqFaHoszs9HI" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=700 HEIGHT=470 allowfullscreen></IFRAME>
                  </div>
              </div>
              <div class="info">

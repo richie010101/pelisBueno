@@ -11,6 +11,6 @@ $password="";
 
 $bd="pelis1234";
 
-$port="3308";
+$port="3306";
 
 ?>
